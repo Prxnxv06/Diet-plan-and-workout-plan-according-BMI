@@ -1,0 +1,118 @@
+body{background: url(BMI\ img.jpeg) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    color: aliceblue;
+}
+.wrapper{
+    width: 420px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    box-shadow: 0px 0px 10px rgb(0, 255, 234);
+    border: 5px solid rgba(255, 94, 0, 0.3);
+    color: aliceblue;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+
+}
+
+.wrapper .input-box {
+    position: relative;
+    width: 100%;
+    height: 50px;
+    margin: 30px 0;
+}
+.input-box input{
+    height: 100%;
+    width: 97%;
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+.input-box input::placeholder {
+    color: aliceblue;
+}
+.result{
+    background: transparent;
+    border: 2px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    font-size: 25px;
+    color: aliceblue;
+    text-align: center;
+    font-weight: 600;
+}
+.wrapper .btn {
+    width: 100%;
+    height: 45px;
+    background: #fff;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+    font-size: 16px;
+    color: #333;
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.content{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content:space-around;
+    border: 2px solid rgba(255,255,255,.2);
+    backdrop-filter: blur(10px);
+    border-radius: 40px;
+    gap: 10px;
+    font-size: 40px;
+}
+.content a{
+    color: aliceblue;
+    text-decoration: none;
+    width: 100%;
+    text-align: center;
+    transition-duration: 0.5s;
+}
+.Underweight{
+    background: rgba(255, 0, 0, 0.61);
+}
+.Average{
+    background: rgba(94, 255, 0, 0.61);
+}
+.Overweight{
+    background: rgba(255, 0, 0, 0.61);
+}
+.content a:hover{
+    background: rgba(94, 255, 0, 0.61);
+    padding: 2px;
+    border-radius: 40px;
+}
+.table{
+    width: 96%;
+    background: transparent;
+    backdrop-filter: blur(10px);
+    border: 4px solid rgba(255,255,255,.2);
+    border-radius: 40px;
+    color: aliceblue;
+    font-size:28px;
+}

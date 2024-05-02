@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="bmi.css">
+</head>
+<body>
+    <header>
+        <div class="header_element">
+            <a href="homepage.html"><img src="logo1.png" alt="logo"></a>
+        </div>
+        <div class="header_element">
+            <h1>EATYOURGREENS</h1>
+        </div>
+        <div class="header_element">
+            <nav style="text-align: end;">
+                <ul class="nav_links">
+                    <li><a href="aboutus.html">About us</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <br>
+    <div class="box">
+        <div class="wrapper">
+            <form id="bmiCalculator">
+                <h1>BMI Calculator</h1>
+                <div class="input-box">
+                    <input type="text" 
+                    placeholder="Weight (Kg)" id="weight" name="weight" required>
+                </div>
+                <div class="input-box">
+                    <input type="text" 
+                    placeholder="Height (m)" id="height" name="height" required>
+                </div>
+                <input type="submit" class="btn" value="Calculate BMI">
+            </form>
+            <br>
+            <div id="reult" class="result">
+                <p>Your BMI : <span id="bmiValue"></span></p>
+            </div>
+        </div>
+    </div>
+    <br>
+    <center>
+        <div class="container table">
+            <p>Underweight BMI < 18.5</p>
+            <p>Average 18.5 < BMI < 24.9 </p>
+            <p>Overweight BMI s> 25</p>
+        </div>
+    </center>
+    <br>
+    <div class="container">
+        <div class="content Underweight">
+            <a href="underweight.html">Underweight</a>
+        </div>
+        <div class="content Average">
+            <a href="average.html">Average</a>
+        </div>
+        <div class="content Overweight">
+            <a href="overweight.html">Overweight</a>
+        </div>
+    </div>
+    <script src="bmi.js"></script>
+    <br>
+    <br>
+    <center>
+        <footer>
+            <img src="no drugs.png" alt="no-drugs">
+            <img src="no-smoking-156623_1280.png" alt="no-smoking">
+            <img src="no-alco.png" alt="no-alco">
+        </footer>
+    </center>
+</body>
+</html>

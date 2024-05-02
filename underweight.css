@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+.card1{
+    background-image: linear-gradient(to left top, #00eaff93, #00e9ff93, #00e9ff93, #00e9ff93, #00e9ff93, #3bebff93, #55ecfe93, #68eefe93, #8af2fe93, #a6f5fe93, #bef9fe93, #d5fcff93),url("male.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    border: 5px solid rgb(70, 196, 255);
+    width: 40%;
+    transition-duration: 0.5s;
+}
+.content a{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    align-content:space-around;
+    gap: 10px;
+    color: black;
+    font-size: 40px;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+}
+.card2{
+    background-image: linear-gradient(to left top, #ff890093, #ff890093, #ff890093, #ff890093, #ff890093, #ff921f93, #ff9b3293, #ffa34293, #ffb56493, #ffc68593, #ffd6a693, #ffe6c993),url("muscularmale.jpg");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+    border: 5px solid rgb(255, 102, 0);
+    width: 40%;
+    transition-duration: 0.5s;
+}
+.card1:hover{
+    width: 45%;
+}
+.card2:hover{
+    width: 45%;
+}
+.result{
+    color: aliceblue;
+}
